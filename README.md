@@ -8,15 +8,19 @@ The project encourages students to experiment with different mathematical constr
 <h2>How To Use</h2>
 <ol>
   <li>Clone the repository:</li>
-  <pre><code>git clone </code></pre>
+  <pre><code>git clone https://github.com/recozzi/fract-ol_42.git</code></pre>
   <li>move to folder Libft:</li>
-  <pre><code>cd </code></pre>
+  <pre><code>cd fract-ol</code></pre>
   <li>Compile the library with Makefile rule:</li>
   <pre><code>make</code></pre>
-  <li>:</li>
-  <pre><code></code></pre>
+  <li>Now you are ready to visualize fractals:</li>
+  <pre><code>./fractol name_of_the_fractal</code></pre>
+	Available fractals: Mandelbrot, Julia and Burningship
+	To launch Mandelbrot: ./fractol mandelbrot
+	To launch Burningship: ./fractol burningship
+	To launch Julia: ./fractol julia x y (x and y are complex numbers between -2.000 and 2.000 not included).
 </ol>
 <h2>Info</h2>
-For more information about this project, please read the subject file <a href="https://github.com/recozzi/notebook/blob/master/42cursus/fract-ol/subject.pdf">here</a>.
+For more information about this project, please read the subject file <a href="https://github.com/recozzi/fract-ol_42/blob/main/en.subject.pdf">here</a>.
 <h2>Licence</h2>
-See <a href="https://github.com/recozzi/notebook/blob/master/42cursus/fract-ol/LICENSE">License</a>.
+See <a href="https://github.com/recozzi/fract-ol_42/blob/main/LICENSE">License</a>.
