@@ -13,13 +13,15 @@ The project encourages students to experiment with different mathematical constr
   <pre><code>cd fract-ol</code></pre>
   <li>Compile the library with Makefile rule:</li>
   <pre><code>make</code></pre>
-  <li>make sure that you have all the dependencies needed for minilibx, if you are not sure, check <a href="https://harm-smits.github.io/42docs/libs/minilibx">here</a> on how to install them.</li>
-  <li>Now you are ready to visualize fractals:</li>
-  <pre><code>./fractol name_of_the_fractal</code></pre>
-	Available fractals: Mandelbrot, Julia and Burningship
-	To launch Mandelbrot: ./fractol mandelbrot
-	To launch Burningship: ./fractol burningship
-	To launch Julia: ./fractol julia x y (x and y are complex numbers between -2.000 and 2.000 not included).
+  <li>Make sure that you have all the dependencies needed for minilibx, if you are not sure, check <a href="https://harm-smits.github.io/42docs/libs/minilibx">here</a> on how to install them.</li>
+  <li>Now you are ready to visualize fractals. Available fractals: Mandelbrot, Julia and Burningship.</li>
+  To launch Mandelbrot:
+  <pre><code> ./fractol mandelbrot</code></pre>
+  To launch Burningship:
+   <pre><code>./fractol burningship</code></pre>
+  To launch Julia:
+   <pre><code>./fractol julia x y</code></pre>
+  x and y are complex numbers between -2.000 and 2.000 not included.
 </ol>
 <h2>Info</h2>
 For more information about this project, please read the subject file <a href="https://github.com/recozzi/fract-ol_42/blob/main/en.subject.pdf">here</a>.
