@@ -68,10 +68,12 @@ $(NAME): lib $(OBJS)
 
 lib:
 	@make -C Libft
+	@make -C minilibx-linux
 
 clean:
 	@$(RM) $(OBJS)
 	@make clean -C Libft
+	@make clean -C minilibx-linux
 	@echo "$(RED)All $(CYAN)$(NAME)$(RED)'s objects removed with $(WHITE)${RM} $(YELLOW)"
 
 fclean: clean
