@@ -21,8 +21,8 @@
 # include <X11/X.h>
 # include <math.h>
 
-# define WIN_WIDTH 900
-# define WIN_HEIGHT	900
+# define WIN_WIDTH 950
+# define WIN_HEIGHT	950
 # define MLX_ERROR -1
 # define MAX_ITER 200
 # define MAX_ITER_JUL 300
